@@ -4441,3 +4441,35 @@ td:last-child {
         right: -2rem;
     }
 }
+
+/* Default size for large screens */
+.s-intro__content-title {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.s-intro__content-pretitle {
+    font-size: 1.2rem;
+}
+
+/* Medium screens (tablets) */
+@media screen and (max-width: 992px) {
+    .s-intro__content-title {
+        font-size: 2.4rem;
+    }
+
+    .s-intro__content-pretitle {
+        font-size: 1rem;
+    }
+}
+
+/* Small screens (mobile phones) */
+@media screen and (max-width: 600px) {
+    .s-intro__content-title {
+        font-size: 1.8rem;
+    }
+
+    .s-intro__content-pretitle {
+        font-size: 0.9rem;
+    }
+}
