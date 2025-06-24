@@ -1533,7 +1533,7 @@ hr.fancy::before {
     position  : relative;
     padding   : 0;
     margin-top: 0;
-    text-align: center;
+    text-align: justify;
 }
 
 .pull-quote blockquote {
